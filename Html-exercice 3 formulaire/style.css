@@ -1,0 +1,285 @@
+body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    background: rgb(238, 238, 238);
+}
+.nav-link li { 
+    list-style-type: none;
+    padding-left: 30px;
+}  
+.nav-link {
+    display: inline;
+    text-align: center;
+}
+.nav-link a {
+  font-size: 40px;
+  text-decoration: none;
+  font-family: Arial;
+  color: white;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: #0060ff;
+  border-radius: 8px;
+  text-align: center;
+
+}
+.banniere{
+    padding: 50px;
+    background-image: url(./img/03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.github{
+    background-image: url(./img/github-mark-white.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    justify-content: center;
+} 
+.footer-basic {
+    padding:40px 0;
+    background-color:#000000;
+    color:#4b4c4d;
+  }
+
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    width:30px;
+    height:30px;
+    line-height:30px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    /* margin-top:15px; */
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+
+.camping{
+    background-image: url(./img/ecusson-hoedic-947d0aac.webp);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    justify-content: center;
+    margin-top: 30px;
+
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #FFFF;
+    font-size: 50px;
+}
+
+/* page accueil */
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    font-size: 25px;
+
+}
+
+p{
+   font-family: Arial, Helvetica, sans-serif; 
+   margin-left: 2%;
+   font-size: 20px;
+}
+
+iframe, a{
+    margin-left: 2%;
+}
+
+.ile{
+    background-image: url(./img/Quiberon-cote-sauvage.jpg);
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 90%;
+}.ile h2{
+    color: #FFFF;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.ile p{
+    text-align: center;
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+   }   
+       .slider-container {
+        max-width: 900px;
+        position: relative;
+        margin: auto;
+        height: 800px;
+        overflow: hidden;
+        border-radius: 4px;
+       }
+       .menu {
+        position: absolute;
+        left: 0;
+        z-index: 11;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+       }
+       .menu label {
+       cursor: pointer;
+       display: inline-block;
+       width: 10px;
+       height: 10px;
+       background: #0077ff;
+       border-radius: 50px;
+       margin: 0 0.2em 1em;
+       }
+       .menu label:hover,.menu label:focus {
+        background: #0060ff;
+       }
+        .slide-input{
+        opacity: 0;
+       }
+       .slide-img {
+        width: 100%;
+       height: 750px;
+       position: absolute;
+       top: 0;
+       left: 100%;
+       z-index: 10;
+       transition :left 0s 0.75s;
+       border-radius: 4px;
+       box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+
+
+        }
+       [id^="slide"]:checked + .slide-img {
+       left: 0;
+       z-index: 100;
+       transition: left 0.65s ease-out;
+        }
+
+/* page contact */
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2%;
+}
+.contact h3{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0060ff;
+    color: white;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#bientot{
+    background-image: url(./img/mouillage-canot-coucher-960-2f40f637.webp);
+    color: #f7f7f7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    margin-top: 3%;
+}
+
+  
+
+
+
+ .form-container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#ccc;
+    background: linear-gradient(180deg, #cccc, #00a2ff );
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact-form h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-container label {
+    display:block;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.form-container input, textarea{
+    width: 100%;
+    padding-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0060ff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* page stat */
+
+table, td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;    
+}
+
+tr{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+aside{
+    background-color: #0077ff;
+}
+li{
+   list-style-type: none; 
+   padding-left: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
