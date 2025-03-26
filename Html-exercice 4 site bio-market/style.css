@@ -1,0 +1,25 @@
+body{
+    margin: 0 0;
+}
+.banniere {
+    padding: 50px;
+    background: #027e2a;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.footer{
+    background-color: #cbcbcb;
+}
+
+footer{
+    background-image: url(./pictos/facebook.svg);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 40px;
+    justify-content: right;
+    margin-top: 20%;
+    margin-right: 20%;  
+}
