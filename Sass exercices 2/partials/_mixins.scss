@@ -1,0 +1,21 @@
+@mixin bouton($bgc, $c){
+    color : $c;
+    background-color : $bgc; 
+    border-radius : 6px ;
+    width: 100px;
+    height: 50px;
+}
+
+@mixin tel($res){
+    @media (max-width: 728px) {
+        body{
+            display: flex;
+            flex-direction: column;
+            main{
+                h1{
+                    font-size: $res;
+                }
+            }
+        }   
+    }
+}
