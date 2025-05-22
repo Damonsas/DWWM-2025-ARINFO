@@ -82,18 +82,20 @@ switch (typeof value) {
     default:
         console.log("Type non reconnu");
 }
-switch (value) {
-    case >= 1:
-        console.log("C'est un nombre");
-        break;
-    case 0:
-        console.log("C'est un nombre");
-        break;
-    case (typeof value === "string"):
-        console.log("C'est une chaîne de caractères");
-        break;
+// ou "2", ou "1", ou "0", etc.
 
+switch (true) {
+    case Number(value) > 1:
+        console.log("La valeur est supérieure à 1");
+        break;
+    case Number(value) > 0:
+        console.log("La valeur est supérieure à 0");
+        break;
+    case Number(value) === 0:
+        console.log("La valeur est égale à 0");
+        break;
+    default:
+        console.log("La valeur n'est pas un nombre ou une chaîne numérique");
 }
-
 
 

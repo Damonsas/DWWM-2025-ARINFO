@@ -115,4 +115,13 @@ else {
 
 // Exo10
 
-
+let ages = prompt ("donner votre age")
+if (ages < 18) {
+    console.log("vous êtes mineur");
+}
+else if (ages <= 65) {
+    console.log("tu es adulte");
+}
+else {
+    console.log("vous êtes senior");
+}
