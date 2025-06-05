@@ -1,0 +1,31 @@
+   
+    
+body {
+    background-color: #4b4b4b;   
+    #données{
+        display: flex;
+        flex-direction: column;  
+        width: 500px;
+    
+    
+    #bouton {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2px;
+
+            button{
+                background-color: #75aaff;
+                border: none;
+                border-radius: 5px;
+                &:hover {
+                    background-color: #4f88de;
+                }
+                &:active {
+                    background-color: #3f6bbf;
+                }
+            }
+        }
+
+    } 
+
+}

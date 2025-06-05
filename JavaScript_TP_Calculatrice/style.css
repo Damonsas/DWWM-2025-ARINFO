@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body {
+  background-color: #4b4b4b;
+}
+body #données {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+body #données #bouton {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+body #données #bouton button {
+  background-color: #75aaff;
+  border: none;
+  border-radius: 5px;
+}
+body #données #bouton button:hover {
+  background-color: #4f88de;
+}
+body #données #bouton button:active {
+  background-color: #3f6bbf;
+}/*# sourceMappingURL=style.css.map */

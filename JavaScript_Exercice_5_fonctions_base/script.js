@@ -59,7 +59,7 @@ function filterNombres(tableur, valeur) {
 
 // exo 6
 function ajouterPropriete(objet, cle, value){
-object[cle] + valeur
+objet[cle] + valeur
 }
 
 //exo 7
