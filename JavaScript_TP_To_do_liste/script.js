@@ -13,3 +13,15 @@ addButton.addEventListener("click", () => {
         alert("Please enter a task.");
     }
 });
+
+todoItem.addEventListener("click", () => {
+    todoItem.classList.toggle("completed");
+});
+
+const deleteBtn = document.createElement("button");
+deleteBtn.textContent = "Supprimer";
+deleteBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    todoItem.remove();
+});
+todoItem.appendChild(deleteBtn);
